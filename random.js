@@ -9,7 +9,7 @@ function imgchange() {
   }
 
   document.getElementById("gen-img").src = myImages1[rnd];
-
+console.log(rnd)
 }
 
 var body = document.getElementById("the-body")
